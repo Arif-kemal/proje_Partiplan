@@ -1,12 +1,7 @@
-import javax.swing.*;
-import java.awt.HeadlessException;
-public class text3 extends JFrame {
-    public OyunEkrani(String titile) throws HeadlessException {
-        super(titile);
-    }
+public class text3 {
 
     public static void main(String[] args) {
-        OyunEkrani ekran = new OyunEkrani("Uzay Oyunu");
+       /*  OyunEkrani ekran = new OyunEkrani("Uzay Oyunu");
         ekran.setResizable(false);
         ekran.setFocusable(false);
 
@@ -20,6 +15,7 @@ public class text3 extends JFrame {
         oyun.setFocusable(true);
         oyun.addKeyListener(oyun);
         oyun.setFocusTraversalKeysEnabled(false);
-        ekran.setVisible(true);
+        ekran.setVisible(true);*/
+        System.out.print("merhaba jjjj");
     }
 }
